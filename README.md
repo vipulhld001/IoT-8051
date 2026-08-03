@@ -1,7 +1,6 @@
 # IoT Prototyping Laboratory - Lab 1: 8051 Microcontroller & EdSim51
 
 **Course / Instructor:** Vipul Singh Negi   
-**MS Teams Code:** `3mlkt3i` 
 
 ---
 
