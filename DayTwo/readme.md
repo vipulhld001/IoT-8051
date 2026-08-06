@@ -142,8 +142,10 @@ Arduino is an open-source electronics platform based on easy-to-use hardware and
 ### Digital Pins
 * Digital signals represent binary values: **0 (LOW / 0V)** or **1 (HIGH / 5V)**.
 * When configured as inputs:
-    * Voltage **< 0.8V** $ightarrow$ Logic LOW (0)
-    * Voltage **> 2.0V** $ightarrow$ Logic HIGH (1)
+    * Voltage **< 0.8V** $
+ightarrow$ Logic LOW (0)
+    * Voltage **> 2.0V** $
+ightarrow$ Logic HIGH (1)
     * Voltages in between are undefined.
 
 ### Pulse Width Modulation (PWM)
