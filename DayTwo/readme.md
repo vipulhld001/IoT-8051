@@ -99,7 +99,7 @@ A **development board** is a printed circuit board with circuitry and hardware d
 ### Major Boards Overview
 
 #### 1. Raspberry Pi 5
-![Raspberry Pi 5](https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Raspberry_Pi_4_Model_B_-_Side.jpg/640px-Raspberry_Pi_4_Model_B_-_Side.jpg)
+![Raspberry Pi 5](https://circuitpython.org/assets/images/boards/large/raspberry_pi_5.jpg)
 * **CPU:** Broadcom BCM2712, 2.4GHz Quad-core 64-bit ARM Cortex-A76
 * **RAM:** Options of 1GB, 2GB, 4GB, 8GB, or 16GB LPDDR4X-4267 SDRAM
 * **Wireless:** 2.4 GHz & 5.0 GHz IEEE 802.11ac Wi-Fi, Bluetooth 5.0 / BLE
