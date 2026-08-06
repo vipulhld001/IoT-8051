@@ -152,7 +152,7 @@ ightarrow$ Logic HIGH (1)
     * Voltages in between are undefined.
 
 ### Pulse Width Modulation (PWM)
-![PWM Duty Cycle](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/PWM_signals.svg/640px-PWM_signals.svg.png)
+![PWM Duty Cycle](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/PWM_signals.svg/640px-PWM_signals.svg)
 * Technique to simulate analog output using digital signals by pulsing frequency and duty cycle.
 * **Frequency:** Time taken for one complete period.
 * **Duty Cycle:** Percentage of time the signal remains HIGH during a period (0%, 25%, 100%, etc.).
