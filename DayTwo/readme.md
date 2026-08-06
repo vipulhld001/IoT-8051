@@ -114,7 +114,7 @@ A **development board** is a printed circuit board with circuitry and hardware d
 * **Digital I/O Pins:** 14 (6 supporting PWM output)
 
 #### 3. Jetson Nano
-![Jetson Nano](https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/NVIDIA_Jetson_Nano_Developer_Kit_Top.jpg/640px-NVIDIA_Jetson_Nano_Developer_Kit_Top.jpg)
+![Jetson Nano](https://d29g4g2dyqv443.cloudfront.net/sites/default/files/akamai/embedded/images/jetsonNano/gettingStarted/jetson-nano-dev-kit-top-r6-HR-B01.png)
 * **GPU:** 128-core NVIDIA Maxwell architecture
 * **CPU:** Quad-core ARM A57
 * **Memory:** 4 GB 64-bit LPDDR4 (25.6 GB/s)
