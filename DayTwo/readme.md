@@ -99,6 +99,7 @@ A **development board** is a printed circuit board with circuitry and hardware d
 ### Major Boards Overview
 
 #### 1. Raspberry Pi 5
+![Raspberry Pi 5](https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Raspberry_Pi_4_Model_B_-_Side.jpg/640px-Raspberry_Pi_4_Model_B_-_Side.jpg)
 * **CPU:** Broadcom BCM2712, 2.4GHz Quad-core 64-bit ARM Cortex-A76
 * **RAM:** Options of 1GB, 2GB, 4GB, 8GB, or 16GB LPDDR4X-4267 SDRAM
 * **Wireless:** 2.4 GHz & 5.0 GHz IEEE 802.11ac Wi-Fi, Bluetooth 5.0 / BLE
@@ -113,6 +114,7 @@ A **development board** is a printed circuit board with circuitry and hardware d
 * **Digital I/O Pins:** 14 (6 supporting PWM output)
 
 #### 3. Jetson Nano
+![Jetson Nano](https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/NVIDIA_Jetson_Nano_Developer_Kit_Top.jpg/640px-NVIDIA_Jetson_Nano_Developer_Kit_Top.jpg)
 * **GPU:** 128-core NVIDIA Maxwell architecture
 * **CPU:** Quad-core ARM A57
 * **Memory:** 4 GB 64-bit LPDDR4 (25.6 GB/s)
@@ -150,6 +152,7 @@ ightarrow$ Logic HIGH (1)
     * Voltages in between are undefined.
 
 ### Pulse Width Modulation (PWM)
+![PWM Duty Cycle](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/PWM_signals.svg/640px-PWM_signals.svg.png)
 * Technique to simulate analog output using digital signals by pulsing frequency and duty cycle.
 * **Frequency:** Time taken for one complete period.
 * **Duty Cycle:** Percentage of time the signal remains HIGH during a period (0%, 25%, 100%, etc.).
