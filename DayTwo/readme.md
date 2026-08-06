@@ -106,7 +106,7 @@ A **development board** is a printed circuit board with circuitry and hardware d
 * **Video/Display:** 2× 4-lane MIPI camera/display transceivers, 2× Micro-HDMI ports
 
 #### 2. Arduino Uno
-[](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Arduino_Uno_-_R3.jpg/250px-Arduino_Uno_-_R3.jpg)
+![Arduino](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Arduino_Uno_-_R3.jpg/250px-Arduino_Uno_-_R3.jpg)
 * **Microcontroller:** Microchip ATmega328P
 * **Operating Voltage:** 5V
 * **Input Voltage:** 7–20V
