@@ -2,7 +2,7 @@
 
 **Author / Instructor:** Vipul Singh Negi  
 **Department:** Computer Science & Engineering, National Institute of Technology Rourkela  
-**Date:** August 9, 2026  
+**Date:** August 10, 2026  
 
 ---
 
