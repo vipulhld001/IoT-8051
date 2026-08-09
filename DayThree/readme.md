@@ -254,7 +254,7 @@ Complete the following tasks and upload your work:
 
 1. **WAP to plot the graphs for Sec and Cosec.**
 2. **WAP to plot the graph for a square wave.**
-3. **WAP to Create five new colours using an RGB LED.**
+3. **WAP to Create five new colours using an RGB LED. (HINT: USE Analog)**
 4. **WAP to create a function that can produce any colour.**
 5. **WAP to create a dimming module for the LED.**
 
