@@ -1,9 +1,6 @@
 # Internet of Things: IR Sensor Module Lab Report & Documentation
 
 **Author:** Vipul Singh Negi  
-**Department:** Department of Computer Science and Engineering  
-**Institution:** National Institute of Technology Rourkela (NIT Rourkela - 769008)  
-**Date:** August 16, 2026  
 
 ---
 
@@ -135,73 +132,6 @@ Passive IR sensors do not emit infrared light. Instead, they detect natural infr
 | **RGB Common Pin** | GND / 5V | Based on Common Cathode/Anode |
 
 ---
-
-### 7.4 Arduino Source Code (`ir_obstacle_rgb.ino`)
-
-```cpp
-/*
- * ===================================================================
- * Course: Internet of Things (IoT) Lab
- * Institution: National Institute of Technology Rourkela
- * Department: Computer Science and Engineering
- * 
- * Author: Vipul Singh Negi
- * Roll Number: [Your Roll Number Here]
- * Date: 16-Aug-2026
- * 
- * Assignment: IR Sensor Interfacing with RGB LED Obstacle Detection
- * Description: Reads digital input from an IR sensor module. If an 
- *              obstacle is detected, turn RGB LED RED. Otherwise, 
- *              turn RGB LED GREEN.
- * ===================================================================
- */
-
-// Pin Definitions
-const int IR_SENSOR_PIN = 2;  // IR Sensor Out pin connected to Digital Pin 2
-const int RED_LED_PIN   = 8;  // Red terminal of RGB LED connected to Digital Pin 8
-const int GREEN_LED_PIN = 9;  // Green terminal of RGB LED connected to Digital Pin 9
-
-// Note: Most IR sensor modules output LOW (0) when an obstacle is detected,
-// and HIGH (1) when no obstacle is present.
-
-void setup() {
-  // Initialize serial communication for debugging
-  Serial.begin(9600);
-
-  // Configure pin modes
-  pinMode(IR_SENSOR_PIN, INPUT);
-  pinMode(RED_LED_PIN, OUTPUT);
-  pinMode(GREEN_LED_PIN, OUTPUT);
-
-  // Initial state setup
-  digitalWrite(RED_LED_PIN, LOW);
-  digitalWrite(GREEN_LED_PIN, LOW);
-
-  Serial.println("IR Sensor Obstacle Detection Initialized.");
-}
-
-void loop() {
-  // Read sensor status
-  int sensorStatus = digitalRead(IR_SENSOR_PIN);
-
-  // Check if obstacle is detected (Active LOW logic)
-  if (sensorStatus == LOW) {
-    // Obstacle detected -> Turn RED ON, GREEN OFF
-    digitalWrite(RED_LED_PIN, HIGH);
-    digitalWrite(GREEN_LED_PIN, LOW);
-    Serial.println("Status: OBSTACLE DETECTED! [LED: RED]");
-  } 
-  else {
-    // No obstacle -> Turn GREEN ON, RED OFF
-    digitalWrite(RED_LED_PIN, LOW);
-    digitalWrite(GREEN_LED_PIN, HIGH);
-    Serial.println("Status: PATH CLEAR. [LED: GREEN]");
-  }
-
-  // Small delay for stability
-  delay(100);
-}
-```
 
 ---
 
