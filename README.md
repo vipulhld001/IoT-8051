@@ -8,5 +8,6 @@ by Vipul Singh Negi
 - **Topic 1:** [8051 Microcontroller](./Day%20One/README.md).
 - **Topic 2:** [Introduction to IoT and Arduino](./DayTwo/readme.md).
 - **Topic 3:** [Working with RGB LED and more](./DayThree/readme.md).
+- **Topic 3:** [Working with In Senosr](./DayFour/readme.md).
 
 ---
